@@ -2,97 +2,104 @@
 <html lang="en">
 
 <head>
-  <title>Amith's Resume</title>
+  <title>Amith Kanuri's Portfolio</title>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" rel="stylesheet" href="./css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
   <header>
     <nav class="navbar">
-      <div class="navdiv">
-        <div class="boxone">
-          <div class="logo"><a href="#home">Home</a></div>
-          <div class="logo"><a href="#aboutme">About</a></div>
-          <div class="logo"><a href="#education">Education</a></div>
-          <div class="logo"><a href="#skills">Skills</a></div>
-          <div class="logo"><a href="#certifications">Certifications</a></div>
-          <div class="logo"><a href="#projects">Projects</a></div>
-          <div class="logo"><a href="#contact">Contact</a></div>
-        </div>
+      <div class="nav-container">
+        <a class="nav-item" href="#home">Home</a>
+        <a class="nav-item" href="#about">About</a>
+        <a class="nav-item" href="#education">Education</a>
+        <a class="nav-item" href="#skills">Skills</a>
+        <a class="nav-item" href="#projects">Projects</a>
+        <a class="nav-item" href="#certifications">Certifications</a>
+        <a class="nav-item" href="#contact">Contact</a>
       </div>
     </nav>
   </header>
-  <section id="home">
-    <div>
-      <br><br><br><br>
-      <img src="./img/profile.jpg" alt="Profile Picture">
-      <div class="heading">
-        <h1>I'm <span style="font-size: 130%;">Amith Kanuri</span></h1>
-        <p style="text-align: center; font-style: oblique; font-size: 28px;">I'm pursuing my masters in New Jersey Institute of Technology (NJIT), Newark. <br>I'm a Data Science major.</p>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="intro">
+        <h1>Hello, I'm <span>Amith Kanuri</span></h1>
+        <p>Currently pursuing a Master's in Data Science at NJIT, Newark.<br> Passionate about data, technology, and creating innovative solutions.</p>
       </div>
-    </div>
-  </section>
-  <section id="aboutme" class="heading1">
-    <hr class="hrline">
-    <h3>About Me</h3>
-    <p class="para">
-      Data Scientist with expertise in statistical analysis, machine learning, and data visualization. Proficient in Python, R, and SQL for data manipulation and modeling. Experienced in developing predictive models, optimizing algorithms, and creating data pipelines. Strong communication skills and ability to explain complex concepts to both technical and non-technical audiences. <br><br>
-      I am currently pursuing my masters in <span style="font-style: italic; font-weight: bold;">New Jersey Institute of Technology, Newark</span> as a Data Science major.
-    </p>
-  </section>
-  <section id="education" class="education">
-    <hr class="hrline">
-    <h3>Masters in Data Science</h3>
-    <p class="para1">New Jersey Institute of Technology - Newark &emsp;&emsp;• 2023 - current</p>
-    <h2>Bachelors in Computer Science</h2>
-    <p class="para1">SRM Easwari Engineering College - Chennai-India &emsp;&emsp;• 2018 - 2022</p>
-  </section>
-  <section id="skills" class="skills">
-    <hr class="hrline">
-    <h3>Skills</h3>
-    <div class="boxskills">
-      <p class="para">HTML &emsp;&emsp;⭐ ⭐ ⭐ ⭐ ⭐</p>
-      <p class="para">CSS &emsp;&emsp;⭐ ⭐ ⭐ ⭐ ⭐</p>
-      <p class="para">JavaScript &emsp;&emsp;⭐ ⭐ ⭐ ⭐</p>
-      <p class="para">Python &emsp;&emsp;⭐ ⭐ ⭐ ⭐</p>
-      <p class="para">SQL &emsp;&emsp;⭐ ⭐ ⭐ ⭐ ⭐</p>
-      <p class="para">Java &emsp;&emsp;⭐ ⭐ ⭐ ⭐</p>
-    </div>
-  </section>
-  <section id="certifications" class="certifications">
-    <hr class="hrline">
-    <h3>Certifications</h3>
-    <h2>AWS certification from Amazon</h2>
-    <h2>ADF certification from Microsoft</h2>
-    <h2>Python certification from HackerRank</h2>
-    <h2>JAVA certification from HackerRank</h2>
-  </section>
-  <section id="projects" class="project">
-    <hr class="hrline">
-    <h3>Projects</h3>
-    <h2>1. Comparative Analysis of Deep Learning Techniques for Traffic Detection</h2>
-    <p class="para1">Focused on the implementation and comparative analysis of two advanced object detection models: YoloV5 and YoloV8.</p>
-    <h2>2. BLIP implementation using Generative Adversial Networks</h2>
-    <p class="para1">Trained and used GAN's and BLIP to generate images to detect fraudulent activities.</p>
-    <h2>3. Flight Data Analysis Project Report</h2>
-    <p class="para1">Used AWS processing and Oozie workflows to determine the flight data analysis to determine various reasons for flight delays.</p>
-  </section>
-  <section id="contact" class="contact">
-    <hr class="hrline">
-    <h3>Contact</h3>
-    <p class="para1">Feel free to connect with me!</p>
-    <ul>
-      <li><a href="mailto:amithkanuri07@gmail.com">amithkanuri07@gmail.com</a></li>
-      <li><a href="https://www.linkedin.com/in/amith-kanuri-a41693348/">LinkedIn Profile</a></li>
-      <li><a href="https://github.com/kilerbee-07">GitHub Profile</a></li>
-    </ul>
-  </section>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>
+        As a Data Scientist, I specialize in machine learning, statistical analysis, and data visualization.
+        My expertise includes Python, R, SQL, and the ability to present complex technical insights to diverse audiences.
+        Currently, I am diving deeper into AI advancements during my Master's program at NJIT.
+      </p>
+    </section>
+
+    <section id="education" class="education-section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Master's in Data Science:</strong> New Jersey Institute of Technology (2023 - Present)</li>
+        <li><strong>Bachelor's in Computer Science:</strong> SRM Easwari Engineering College (2018 - 2022)</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML ⭐⭐⭐⭐⭐</li>
+        <li>CSS ⭐⭐⭐⭐⭐</li>
+        <li>JavaScript ⭐⭐⭐⭐</li>
+        <li>Python ⭐⭐⭐⭐</li>
+        <li>SQL ⭐⭐⭐⭐⭐</li>
+        <li>Java ⭐⭐⭐⭐</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <article>
+        <h3>1. Comparative Analysis of YoloV5 and YoloV8</h3>
+        <p>Evaluated and implemented object detection models for enhanced traffic monitoring accuracy.</p>
+      </article>
+      <article>
+        <h3>2. Fraud Detection Using Generative Adversarial Networks</h3>
+        <p>Trained a GAN to detect fraudulent activities, integrating advanced image generation techniques.</p>
+      </article>
+      <article>
+        <h3>3. Flight Data Analysis</h3>
+        <p>Leveraged AWS and workflow automation tools to analyze key factors leading to flight delays.</p>
+      </article>
+    </section>
+
+    <section id="certifications" class="certifications-section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>AWS Certification from Amazon</li>
+        <li>ADF Certification from Microsoft</li>
+        <li>Python Certification from HackerRank</li>
+        <li>Java Certification from HackerRank</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <p>Feel free to reach out to me through any of these platforms:</p>
+      <ul>
+        <li>Email: <a href="mailto:amithkanuri07@gmail.com">amithkanuri07@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/amith-kanuri-a41693348/">Amith's LinkedIn</a></li>
+        <li>GitHub: <a href="https://github.com/kilerbee-07">Amith's GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Amith Kanuri. All rights reserved.</p>
+  </footer>
 </body>
-<hr class="bottom-hrline">
-<footer>
-  <div class="copyright">Copyright &#169; Amith</div>
-</footer>
 
 </html>
